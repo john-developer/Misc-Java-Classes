@@ -10,6 +10,15 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
+/**
+ * ReadTextFile is a base class that scans a text file line-by-line
+ * and provides the user with info about the contents of the file. Info including:
+ * the amount of numbers, the amount of strings, the sum, average, and median of all the numbers,
+ * a distinct list of all the strings (along with their frequency).  It also allows the user to 
+ * search for a string and find if it exists in the text file or not.  
+
+ * @author      John Murphy
+ */
 public class ReadTextFile {
 
 	/**
