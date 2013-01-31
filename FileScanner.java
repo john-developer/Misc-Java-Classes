@@ -1,6 +1,12 @@
 import java.io.File;
 
-
+/**
+ * FileScanner is a base class that scans a directory and provides
+ * the user information abouts its contents.  This includes: the number of files,
+ * the number of sub-directories, and the total size of all the files.
+ * 
+ * @author      John murphy
+ */
 public class FileScanner {
 
 	/**
